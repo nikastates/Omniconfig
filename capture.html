@@ -13,7 +13,7 @@
     }
 
     .masthead.segment {
-      min-height: 700px;
+      min-height: 40px;
       padding: 1em 0em;
     }
     .masthead .logo.item img {
@@ -43,20 +43,47 @@
     .ui.vertical.stripe p + h3 {
       margin-top: 3em;
     }
+
     .ui.vertical.stripe .floated.image {
       clear: both;
     }
     .ui.vertical.stripe p {
       font-size: 1.33em;
     }
-
-     .ui.button {
-      background-color:#C3555D;
-      color: #fff;
-    }
-
     .ui.vertical.stripe .horizontal.divider {
       margin: 3em 0em;
+    }
+
+    .ui.left.aligned.container {
+      padding-top: 6rem;
+    }
+
+    .ui.form.capture {
+      padding: 0 6rem;
+      max-width: 800px;
+    }
+
+    .six.wide.column .ui.container {
+      padding-left: 11rem;
+    }
+
+    .ui.stackable.grid {
+      padding-top: 3em;
+      padding-bottom: 3em;
+    }
+
+    .ui.section.divider {
+      margin-left: 11rem;
+      margin-right: 11rem;
+    }
+
+    .ui.section.divider.aha {
+      padding-bottom: 5rem;
+    }
+
+    .ui.button {
+      background-color:#C3555D;
+      color: #fff;
     }
 
     .quote.stripe.segment {
@@ -163,7 +190,6 @@
 <!-- Page Contents -->
 <div class="pusher">
   <div class="ui inverted vertical masthead center aligned segment">
-
     <div class="ui container">
       <div class="ui large secondary inverted pointing menu">
         <a class="toc item">
@@ -179,71 +205,39 @@
         </div>
       </div>
     </div>
-
-    <div class="ui text container">
-      <h1 class="ui inverted header">
-        Imagine-a-Company
-      </h1>
-      <h2>Do whatever you want when you want to.</h2>
-      <div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>
-    </div>
-
   </div>
+<div class="pusher">
 
-  <div class="ui vertical stripe segment">
-    <div class="ui middle aligned stackable grid container">
-      <div class="row">
-        <div class="eight wide column">
-          <h3 class="ui header">We Help Companies and Companions</h3>
-          <p>We can give your company superpowers to do things that they never thought possible. Let us delight your customers and empower your needs...through pure data analytics.</p>
-          <h3 class="ui header">We Make Bananas That Can Dance</h3>
-          <p>Yes that's right, you thought it was the stuff of dreams, but even bananas can be bioengineered.</p>
-        </div>
-        <div class="six wide right floated column">
-          <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
-        </div>
-      </div>
-      <div class="row">
-        <div class="center aligned column">
-          <a class="ui huge button">Check Them Out</a>
-        </div>
+<div class="ui left aligned container">
+  <h1>WANT TO EXPLORE THE GALAXY?</h1>
+</div>
+<div class="ui section divider"></div>  
+<div class="ui stackable grid">
+  <div class="row">
+    <div class="six wide column">
+      <div class="ui container">
+        <h3>MAKE IT SO!</h3>
+        <p>Mr. Worf, you do remember how to fire phasers? Ensign Babyface! Fear is the true enemy, the only enemy. I'd like to think that I haven't changed those things, sir. Wait a minute - you've been declared dead. You can't give orders around here. What? We're not at all alike! We finished our first sensor sweep of the neutral zone. Did you come here for something in particular or just general Riker-bashing? We'll let you know. Just sign up:
+        </p>
       </div>
     </div>
-  </div>
-
-
-  <div class="ui vertical stripe quote segment">
-    <div class="ui equal width stackable internally celled grid">
-      <div class="center aligned row">
-        <div class="column">
-          <h3>"What a Company"</h3>
-          <p>That is what they all say about us</p>
+    <div class="ten wide column">
+      <form class="ui form capture">
+        <div class="field">
+          <label>Name</label>
+          <input type="text" name="first-name" placeholder="First Name">
         </div>
-        <div class="column">
-          <h3>"I shouldn't have gone with their competitor."</h3>
-          <p>
-            <img src="assets/images/avatar/nan.jpg" class="ui avatar image"> <b>Nan</b> Chief Fun Officer Acme Toys
-          </p>
+        <div class="field">
+          <label>Email Address</label>
+          <input type="text" name="last-name" placeholder="Last Name">
         </div>
-      </div>
+        <button class="ui button" type="submit">Submit</button>
+      </form>
     </div>
   </div>
-
-  <div class="ui vertical stripe segment">
-    <div class="ui text container">
-      <h3 class="ui header">Breaking The Grid, Grabs Your Attention</h3>
-      <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
-      <a class="ui large button">Read More</a>
-      <h4 class="ui horizontal header divider">
-        <a href="#">Case Studies</a>
-      </h4>
-      <h3 class="ui header">Did We Tell You About Our Bananas?</h3>
-      <p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
-      <a class="ui large button">I'm Still Quite Interested</a>
-    </div>
-  </div>
-
-
+</div>
+<div class="ui section divider aha"></div>  
+</div>
   <div class="ui inverted vertical footer segment">
     <div class="ui container">
       <div class="ui stackable inverted divided equal height stackable grid">
@@ -276,6 +270,3 @@
 
   </body>
 </html>
-    
-    
- 
